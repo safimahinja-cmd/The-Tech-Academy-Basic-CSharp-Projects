@@ -44,7 +44,6 @@ namespace TheTechAcademyBasicCSharpProjects
 
             // This line calls the Quit method through the interface reference.
             quittableEmployee.Quit();
-
         }
     }
 }
