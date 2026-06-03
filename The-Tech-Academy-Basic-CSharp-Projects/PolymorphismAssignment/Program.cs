@@ -14,10 +14,10 @@ namespace TheTechAcademyBasicCSharpProjects
     class Employee : IQuittable
     {
         // This auto-property stores the employee's first name.
-        public string FirstName { get; set; } = string.Empty;
+        public required string FirstName { get; set; }
 
         // This auto-property stores the employee's last name.
-        public string LastName { get; set; } = string.Empty;
+        public required string LastName { get; set; }
 
         // This auto-property stores the employee's numeric identifier.
         public int Id { get; set; }
