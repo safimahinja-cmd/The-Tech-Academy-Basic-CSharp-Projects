@@ -36,7 +36,7 @@ namespace TheTechAcademyBasicCSharpProjects
         // This method runs when the console application starts.
         static void Main(string[] args)
         {
-            // This line creates an Employee object and assigns sample values to its properties.
+            // This line creates an Employee object and uses an object initializer to satisfy the required name properties with sample values.
             Employee employee = new Employee { FirstName = "Jane", LastName = "Doe", Id = 7 };
 
             // This line uses polymorphism by storing the Employee object in a variable typed as the IQuittable interface.
